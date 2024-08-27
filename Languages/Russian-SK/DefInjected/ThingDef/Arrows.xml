@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ammo_Arrow_SharpStone.label>Стрела (острый камень)</Ammo_Arrow_SharpStone.label>
+  <Projectile_Arrow_SharpStone.label>Стрела (острый камень)</Projectile_Arrow_SharpStone.label>
+  
+  <Ammo_Arrow_Adamant.label>Стрела (Адамантит)</Ammo_Arrow_Adamant.label>
+  <Projectile_Arrow_Adamant.label>Стрела (Адамантит)</Projectile_Arrow_Adamant.label>
+
+</LanguageData>
