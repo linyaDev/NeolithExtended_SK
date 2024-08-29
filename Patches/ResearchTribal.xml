@@ -7,9 +7,14 @@
         <match Class="PatchOperationSequence">
             <success>Always</success>
             <operations>
-
-
-
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ResearchProjectDef[defName="Apparel_A2"]/baseCost
+                    </xpath>
+                    <value>
+                        <baseCost>75</baseCost>
+                    </value>
+                </li>
             </operations>
         </match>
     </Operation>

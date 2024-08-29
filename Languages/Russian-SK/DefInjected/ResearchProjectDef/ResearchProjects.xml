@@ -2,8 +2,13 @@
 <LanguageData>
 
   <ZF_Craft_1.label>Инструменты 1</ZF_Craft_1.label>
+  <Apparel_A2.label>Племенной пошив 1</Apparel_A2.label>
+  <ZF_Apparel_A3.label>Племенной пошив 2</ZF_Apparel_A3.label>
+
   <ZF_NeolithicToolsI.label>Племенное ремесло 1</ZF_NeolithicToolsI.label>
   <ZF_NeolithicToolsII.label>Племенное ремесло 2</ZF_NeolithicToolsII.label>
   <ZF_NeolithicToolsIII.label>Племенное ремесло 3</ZF_NeolithicToolsIII.label>
+
+
 
 </LanguageData>

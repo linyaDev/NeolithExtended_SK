@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core SK</li>
+            <li>HMC Vile's Pre-Industrial Overhaul</li>
+        </mods>
+
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+
+                <!-- Шапки -->
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_ohlala"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>ZF_Apparel_A3</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_Furxhood"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparell_ArcticWolfHood"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_Snorkhood"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>ZF_Apparel_A3</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparel_BronzeHelmet"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>ZF_Apparel_A3</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_NorbalKing"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>ZF_Apparel_A3</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <!-- тела -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Norballo_Loincloth"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparel_FSFurCoat"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_Tribalpad"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_Rimramhood"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="ShieldTribal"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A1</researchPrerequisite>
+                    </value>
+                </li>
+
+                <!-- ботинки -->
+
+
+                <!-- Caligae -->
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_Clawboots"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_Snowboots"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <!-- Sandals -->
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_NorbalMuffshoes"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

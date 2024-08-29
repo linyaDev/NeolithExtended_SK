@@ -2,68 +2,19 @@
 <Patch>
 
     <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Core SK</li>
+            <li>HMC Vile's Pre-Industrial Overhaul</li>
+        </mods>
+
         <match Class="PatchOperationSequence">
             <operations>
-
                 <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Apparello_ohlala"]/equippedStatOffsets/MentalBreakThreshold</xpath>
-                    <value>
-                        <MentalBreakThreshold>-0.04</MentalBreakThreshold>
-                    </value>
-                </li>
-
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Apparell_ArcticWolfHood"]/equippedStatOffsets/MentalBreakThreshold</xpath>
-                    <value>
-                        <MentalBreakThreshold>-0.01</MentalBreakThreshold>
-                    </value>
-                </li>
-
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Apparello_Slughood"]/equippedStatOffsets/MentalBreakThreshold</xpath>
-                    <value>
-                        <MentalBreakThreshold>-0.04</MentalBreakThreshold>
-                    </value>
-                </li>
-
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Apparello_Snorkhood"]/equippedStatOffsets/MentalBreakThreshold</xpath>
-                    <value>
-                        <MentalBreakThreshold>-0.01</MentalBreakThreshold>
-                    </value>
-                </li>
-
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Apparello_Furxhood"]/equippedStatOffsets/MentalBreakThreshold</xpath>
-                    <value>
-                        <MentalBreakThreshold>-0.01</MentalBreakThreshold>
-                    </value>
-                </li>
-
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Apparello_ohlala"]/equippedStatOffsets/MentalBreakThreshold</xpath>
-                    <value>
-                        <MentalBreakThreshold>-0.04</MentalBreakThreshold>
-                    </value>
-                </li>
-
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Apparello_NorbalKing"]/equippedStatOffsets/MentalBreakThreshold</xpath>
+                    <xpath>
+                        Defs/ThingDef[defName="Apparel_WarMask"]/equippedStatOffsets/MentalBreakThreshold
+                    </xpath>
                     <value>
                         <MentalBreakThreshold>-0.02</MentalBreakThreshold>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/equippedStatOffsets/MentalBreakThreshold</xpath>
-                    <value>
-                        <MentalBreakThreshold>0.02</MentalBreakThreshold>
                     </value>
                 </li>
 
