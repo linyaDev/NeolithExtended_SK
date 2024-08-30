@@ -16,7 +16,6 @@
                 </statBases>
                 <stuffProps>
                         <color>(100,100,100)</color>
-                        <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
                         <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
                         <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
                         <stuffAdjective>flint</stuffAdjective>
@@ -50,7 +49,6 @@
                 </statBases>
                 <stuffProps>
                         <color>(25,25,25)</color>
-                        <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
                         <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
                         <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
                         <stuffAdjective>obsidian</stuffAdjective>
@@ -84,7 +82,6 @@
                 </statBases>
                 <stuffProps>
                         <color>(49, 66, 60)</color>
-                        <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
                         <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
                         <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
                         <stuffAdjective>adamantine</stuffAdjective>

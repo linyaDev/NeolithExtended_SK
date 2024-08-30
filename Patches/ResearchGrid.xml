@@ -26,6 +26,66 @@
             </value>
         </li>
 
+        <li Class="PatchOperationReplace">
+            <xpath>
+                Defs/ResearchProjectDef[defName="Fish_A1"]/researchViewX
+            </xpath>
+            <value>
+                <researchViewX>1</researchViewX>
+            </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+            <xpath>
+                Defs/ResearchProjectDef[defName="Fortification_A1"]/researchViewX
+            </xpath>
+            <value>
+                <researchViewX>1</researchViewX>
+            </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="Fortification_B1"]/prerequisites
+            </xpath>
+            <value>
+                <prerequisites>
+                    <li>ZF_Fortification</li>
+                </prerequisites>
+            </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="Fish_C1"]/prerequisites
+            </xpath>
+            <value>
+                <prerequisites>
+                    <li>ZF_Fishing</li>
+                </prerequisites>
+            </value>
+        </li>
+
+
+        <!--
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="Fish_A1"]/prerequisites
+            </xpath>
+            <value>
+                <prerequisites>
+                    <li>Neolith_Fishing</li>
+                </prerequisites>
+            </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="Fortification_A1"]/prerequisites</xpath>
+            <value>
+                <prerequisites>
+                    <li>Neolith_Fortification</li>
+                </prerequisites>
+            </value>
+        </li>
+        -->
+
     </operations>
         </match>
     </Operation>

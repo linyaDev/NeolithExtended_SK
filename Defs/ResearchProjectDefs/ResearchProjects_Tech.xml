@@ -3,17 +3,57 @@
 
   <!-- <researchPrerequisite>Craft_0  -->
 
+
+  <ResearchProjectDef ParentName="ZF_NoResearchBase">
+    <defName>ZF_Poisons</defName>
+    <label>Poisions</label>
+    <description></description>
+    <baseCost>50</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>Craft_SK</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>63.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ZF_NoResearchBase">
+    <defName>ZF_Fishing</defName>
+    <label>Neolith Fishing</label>
+    <description>Descr</description>
+    <baseCost>250</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>Craft_SK</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>50.00</researchViewY>
+    <prerequisites>
+      <li>Fish_A1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ZF_NoResearchBase">
+    <defName>ZF_Fortification</defName>
+    <label>Neolith Fortithication</label>
+    <description>Descr</description>
+    <baseCost>250</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>Craft_SK</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>14.00</researchViewY>
+    <prerequisites>
+      <li>Fortification_A1</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+
   <ResearchProjectDef ParentName="ZF_NoResearchBase">
     <defName>ZF_Apparel_A3</defName>
     <label>Advanced neolith sewing II</label>
     <description>Learn to make expert neolith clothing</description>
-    <baseCost>250</baseCost>
+    <baseCost>300</baseCost>
     <techLevel>Neolithic</techLevel>
     <tab>Craft_SK</tab>
     <researchViewX>2.00</researchViewX>
     <researchViewY>38.00</researchViewY>
     <prerequisites>
-      <li>Apparel_A1</li>
       <li>Apparel_A2</li>
     </prerequisites>
 
@@ -23,7 +63,7 @@
     <defName>ZF_NeolithicToolsI</defName>
     <label>Neolithic crafting I</label>
     <description>Make tools and simple weapons out of sharp stone like flint and obsidian.</description>
-    <baseCost>150</baseCost>
+    <baseCost>50</baseCost>
     <techLevel>Neolithic</techLevel>
     <tab>Craft_SK</tab>
     <researchViewX>1.00</researchViewX>
@@ -49,7 +89,7 @@
     <defName>ZF_NeolithicToolsIII</defName>
     <label>Neolithic crafting III</label>
     <description>Make advanced weapons out of sharp stone like flint and obsidian and even harder stones like adamant.</description>
-    <baseCost>400</baseCost>
+    <baseCost>300</baseCost>
     <techLevel>Neolithic</techLevel>
     <tab>Craft_SK</tab>
     <researchViewX>2.00</researchViewX>

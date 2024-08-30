@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>ViTech.MedievalOverhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="StakeWall"]/researchPrerequisites</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>ZF_Fortification</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+
+
+			</operations>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="HSK_FishTrap"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+				<li>ZF_Fishing</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+
+</Patch>
