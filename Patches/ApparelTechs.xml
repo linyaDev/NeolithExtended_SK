@@ -88,10 +88,19 @@
 
                 <li Class="PatchOperationReplace">
                     <xpath>
-                        Defs/ThingDef[defName="Norballo_Loincloth"]/recipeMaker/researchPrerequisite
+                        Defs/ThingDef[defName="Apparel_FSDesertRobe"]/recipeMaker/researchPrerequisite
                     </xpath>
                     <value>
                         <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Norballo_Loincloth"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_A1</researchPrerequisite>
                     </value>
                 </li>
 

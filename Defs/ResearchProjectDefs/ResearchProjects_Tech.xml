@@ -7,12 +7,13 @@
     <defName>ZF_Apparel_A3</defName>
     <label>Advanced neolith sewing II</label>
     <description>Learn to make expert neolith clothing</description>
-    <baseCost>150</baseCost>
+    <baseCost>250</baseCost>
     <techLevel>Neolithic</techLevel>
     <tab>Craft_SK</tab>
     <researchViewX>2.00</researchViewX>
-    <researchViewY>37.00</researchViewY>
+    <researchViewY>38.00</researchViewY>
     <prerequisites>
+      <li>Apparel_A1</li>
       <li>Apparel_A2</li>
     </prerequisites>
 

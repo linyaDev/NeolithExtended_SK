@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Core SK</li>
+        <li>HMC Vile's Pre-Industrial Overhaul</li>
+    </mods>
+        <match Class="PatchOperationSequence">
+    <operations>
+        <li Class="PatchOperationReplace">
+            <xpath>
+                Defs/ResearchProjectDef[defName="Apparel_A2"]/researchViewY
+            </xpath>
+            <value>
+                <researchViewY>39</researchViewY>
+            </value>
+        </li>
+
+        <li Class="PatchOperationReplace">
+            <xpath>Defs/ResearchProjectDef[defName="Armor_IronAge"]/prerequisites
+            </xpath>
+            <value>
+                <prerequisites>
+                    <li>Apparel_A2</li>
+                </prerequisites>
+            </value>
+        </li>
+
+    </operations>
+        </match>
+    </Operation>
+</Patch>
