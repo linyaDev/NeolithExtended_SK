@@ -29,8 +29,8 @@
     </graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>12</damageAmountBase>
-			<armorPenetrationSharp>3.5</armorPenetrationSharp>
-			<armorPenetrationBlunt>4</armorPenetrationBlunt>
+			<armorPenetrationSharp>3.3</armorPenetrationSharp>
+			<armorPenetrationBlunt>3.8</armorPenetrationBlunt>
       <preExplosionSpawnChance>0.333</preExplosionSpawnChance>
       <preExplosionSpawnThingDef>Ammo_Arrow_SharpStone</preExplosionSpawnThingDef>
 		</projectile>
@@ -109,7 +109,7 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>10</damageAmountBase>
 			<armorPenetrationSharp>7</armorPenetrationSharp>
-			<armorPenetrationBlunt>7</armorPenetrationBlunt>
+			<armorPenetrationBlunt>6</armorPenetrationBlunt>
       <preExplosionSpawnChance>0.8</preExplosionSpawnChance>
       <preExplosionSpawnThingDef>Ammo_Arrow_Adamant</preExplosionSpawnThingDef>
 		</projectile>

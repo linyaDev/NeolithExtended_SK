@@ -10,4 +10,44 @@
 	  </value>
 	</Operation>
 
+
+	<!--
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/products/Ammo_Arrow_Steel</xpath>
+		<value>
+			<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/products/Ammo_Arrow_Steel</xpath>
+		<value>
+			<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/products/Ammo_Arrow_Steel</xpath>
+		<value>
+			<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Explosive"]/products/Ammo_Arrow_Steel</xpath>
+		<value>
+			<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/recipeUsers</xpath>
+		<value>
+			<recipeUsers>
+				<li>ZF_NeolithicCraftingSpot</li>
+			</recipeUsers>
+		</value>
+	</Operation>
+	-->
+
 </Patch>

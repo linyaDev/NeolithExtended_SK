@@ -70,6 +70,17 @@
     <researchViewY>28.00</researchViewY>
   </ResearchProjectDef>
 
+  <ResearchProjectDef ParentName="ZF_TribalResearchBase">
+    <defName>ZF_NeolithicMetalWeaponI</defName>
+    <label>Neolithic metal weapon</label>
+    <description>Make tools and simple weapons out of sharp stone like flint and obsidian.</description>
+    <baseCost>75</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>Craft_SK</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>27.00</researchViewY>
+  </ResearchProjectDef>
+
   <ResearchProjectDef ParentName="ZF_NoResearchBase">
     <defName>ZF_NeolithicToolsII</defName>
     <label>Neolithic crafting II</label>

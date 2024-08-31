@@ -242,6 +242,7 @@
             <TameAnimalChance>0.07</TameAnimalChance>
             <SocialImpact>-0.1</SocialImpact>
             <GermResistance>0.02</GermResistance>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
             <GermContainment>0.01</GermContainment>
         </equippedStatOffsets>
         <generateCommonality>2.8</generateCommonality>

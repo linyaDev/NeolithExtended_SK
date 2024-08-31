@@ -9,6 +9,7 @@
 
         <match Class="PatchOperationSequence">
             <operations>
+
                 <li Class="PatchOperationReplace">
                     <xpath>
                         Defs/ThingDef[defName="Apparel_WarMask"]/equippedStatOffsets/MentalBreakThreshold
@@ -27,24 +28,11 @@
                     </value>
                 </li>
 
-                <!-- Idealogy
-
-                <li Class="PatchOperationReplace">
-                    <xpath>
-                        Defs/ThingDef[defName="Apparel_Tailcap"]/equippedStatOffsets/MentalBreakThreshold
-                    </xpath>
-                    <value>
-                        <MentalBreakThreshold>-0.01</MentalBreakThreshold>
-                    </value>
-                </li>
-
-                -->
-
-
                 <li Class="PatchOperationReplace">
                     <xpath>
                         Defs/ThingDef[defName="Apparello_Furxhood"]/equippedStatOffsets
                     </xpath>
+
                     <value>
                         <equippedStatOffsets>
                             <MoveSpeed>-0.02</MoveSpeed>
@@ -64,7 +52,15 @@
                     </value>
                 </li>
 
-                <!---->
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        Defs/ThingDef[defName="Norballo_Loincloth"]/equippedStatOffsets
+                    </xpath>
+                    <value>
+                        <MentalBreakThreshold>-0.01</MentalBreakThreshold>
+                    </value>
+                </li>
+
             </operations>
         </match>
     </Operation>

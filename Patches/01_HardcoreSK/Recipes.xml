@@ -50,9 +50,7 @@
       </value>
     </match>
   </Operation>
-  
-  
-  
+
   <!-- Chunks to rubble -->
   
   <Operation Class="PatchOperationFindMod">
@@ -87,6 +85,18 @@
       <xpath>Defs/RecipeDef[defName="MakeCrushedStone_Electric_Chunk"]/ingredients/li/filter/categories</xpath>
       <value>
         <li>HardStoneChunks</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Core SK</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/RecipeDef[defName="MakeAntidoteSimple"]/recipeUsers</xpath>
+      <value>
+        <li>ButcherSpot</li>
       </value>
     </match>
   </Operation>
