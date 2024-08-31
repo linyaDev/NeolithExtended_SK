@@ -12,7 +12,7 @@
                         Defs/ResearchProjectDef[defName="Apparel_A1"]/baseCost
                     </xpath>
                     <value>
-                        <baseCost>50</baseCost>
+                        <baseCost>75</baseCost>
                     </value>
                 </li>
 
@@ -31,7 +31,7 @@
                         Defs/ResearchProjectDef[defName="Fish_A1"]/baseCost
                     </xpath>
                     <value>
-                        <baseCost>50</baseCost>
+                        <baseCost>75</baseCost>
                     </value>
                 </li>
 
@@ -41,7 +41,7 @@
                         Defs/ResearchProjectDef[defName="Fortification_A1"]/baseCost
                     </xpath>
                     <value>
-                        <baseCost>50</baseCost>
+                        <baseCost>75</baseCost>
                     </value>
                 </li>
 

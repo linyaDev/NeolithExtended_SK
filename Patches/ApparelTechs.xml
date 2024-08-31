@@ -44,7 +44,7 @@
                         Defs/ThingDef[defName="Apparello_Snorkhood"]/recipeMaker/researchPrerequisite
                     </xpath>
                     <value>
-                        <researchPrerequisite>ZF_Apparel_A3</researchPrerequisite>
+                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
                     </value>
                 </li>
 
@@ -63,15 +63,6 @@
                     </xpath>
                     <value>
                         <researchPrerequisite>ZF_Apparel_A3</researchPrerequisite>
-                    </value>
-                </li>
-
-                <li Class="PatchOperationReplace">
-                    <xpath>
-                        Defs/ThingDef[defName="Apparel_WarMask"]/recipeMaker/researchPrerequisite
-                    </xpath>
-                    <value>
-                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
                     </value>
                 </li>
 
@@ -149,7 +140,7 @@
                         Defs/ThingDef[defName="Apparello_Clawboots"]/recipeMaker/researchPrerequisite
                     </xpath>
                     <value>
-                        <researchPrerequisite>Apparel_A2</researchPrerequisite>
+                        <researchPrerequisite>Apparel_A1</researchPrerequisite>
                     </value>
                 </li>
 

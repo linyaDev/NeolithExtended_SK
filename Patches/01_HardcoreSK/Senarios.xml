@@ -76,17 +76,13 @@
                 <thingDef>ZF_MeleeWeapon_NeolithicSpear</thingDef>
                 <count>2</count>
             </li>
+
             <li Class="ScenPart_StartingThing_Defined">
                 <def>StartingThing_Defined</def>
                 <thingDef>ZF_SharpStoneShard</thingDef>
                 <count>10</count>
             </li>
 
-            <li Class="ScenPart_StartingResearch">
-                <def>StartingResearch</def>
-                <visible>true</visible>
-                <project>Apparel_A1</project>
-            </li>
         </value>
     </Operation>
     

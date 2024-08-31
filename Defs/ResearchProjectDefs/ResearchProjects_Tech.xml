@@ -63,7 +63,7 @@
     <defName>ZF_NeolithicToolsI</defName>
     <label>Neolithic crafting I</label>
     <description>Make tools and simple weapons out of sharp stone like flint and obsidian.</description>
-    <baseCost>50</baseCost>
+    <baseCost>75</baseCost>
     <techLevel>Neolithic</techLevel>
     <tab>Craft_SK</tab>
     <researchViewX>1.00</researchViewX>

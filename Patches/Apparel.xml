@@ -14,11 +14,60 @@
                         Defs/ThingDef[defName="Apparel_WarMask"]/equippedStatOffsets/MentalBreakThreshold
                     </xpath>
                     <value>
+                        <MentalBreakThreshold>0.02</MentalBreakThreshold>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_Clawboots"]/equippedStatOffsets/MentalBreakThreshold
+                    </xpath>
+                    <value>
                         <MentalBreakThreshold>-0.02</MentalBreakThreshold>
                     </value>
                 </li>
 
+                <!-- Idealogy
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparel_Tailcap"]/equippedStatOffsets/MentalBreakThreshold
+                    </xpath>
+                    <value>
+                        <MentalBreakThreshold>-0.01</MentalBreakThreshold>
+                    </value>
+                </li>
+
+                -->
+
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="Apparello_Furxhood"]/equippedStatOffsets
+                    </xpath>
+                    <value>
+                        <equippedStatOffsets>
+                            <MoveSpeed>-0.02</MoveSpeed>
+                            <WorkSpeedGlobal>-0.02</WorkSpeedGlobal>
+                            <SocialImpact>-0.1</SocialImpact>
+                            <PsychicSensitivity>-0.01</PsychicSensitivity>
+                            <ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
+                            <AimingDelayFactor>0.05</AimingDelayFactor>
+                            <MeleeHitChance>-0.05</MeleeHitChance>
+                            <TrainAnimalChance>0.1</TrainAnimalChance>
+                            <TameAnimalChance>0.07</TameAnimalChance>
+                            <GermResistance>0.02</GermResistance>
+                            <GermContainment>0.01</GermContainment>
+                            <MentalBreakThreshold>-0.01</MentalBreakThreshold>
+                        </equippedStatOffsets>
+
+                    </value>
+                </li>
+
+                <!---->
             </operations>
         </match>
     </Operation>
+
+
 </Patch>
