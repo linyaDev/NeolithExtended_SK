@@ -268,7 +268,7 @@ Beauty: 8.</description>
 	
 	<!-- Fossil floors -->
 	
-	<TerrainDef Name="FossilFloorBase" ParentName="SK_TileStoneBase" Abstract="True" >
+	<TerrainDef Name="FossilFloorBase" ParentName="SK_TileStoneBase" Abstract="True">
 		<renderPrecedence>270</renderPrecedence>
 		<description>Flooring made with square slabs of rough rock containing fossils of long dead sea creatures. It is very beautiful and can be smoothed. 
 Beauty: 8.</description>
@@ -285,7 +285,7 @@ Beauty: 8.</description>
 		<designationCategory>NaturalFloors</designationCategory>
 	</TerrainDef>
 
-	<TerrainDef Name="FossilFloorSmoothedBase" ParentName="FossilFloorBase" Abstract="True" >
+	<TerrainDef Name="FossilFloorSmoothedBase" ParentName="FossilFloorBase" Abstract="True">
 		<description>Flooring made with square slabs of smoothed rock constaining fossils of long dead sea creatures. It is very beautiful. 
 Beauty: 10.</description>
 		<researchPrerequisites Inherit="False">

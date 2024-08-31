@@ -3,11 +3,10 @@
 
   <!-- <researchPrerequisite>Craft_0  -->
 
-
   <ResearchProjectDef ParentName="ZF_NoResearchBase">
     <defName>ZF_Poisons</defName>
-    <label>Poisions</label>
-    <description></description>
+    <label>Poisons</label>
+    <description>Poisons</description>
     <baseCost>50</baseCost>
     <techLevel>Neolithic</techLevel>
     <tab>Craft_SK</tab>

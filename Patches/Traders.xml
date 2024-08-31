@@ -45,17 +45,4 @@
 	</Operation>
 
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>Defs/TraderKindDef[defName = "Caravan_Neolithic_WarMerchant"]/stockGenerators</xpath>
-        <value>
-            <li Class="StockGenerator_SingleDef">
-                <thingDef>Ammo_Arrow_Adamant</thingDef>
-                <countRange>
-                    <min>0</min>
-                    <max>25</max>
-                </countRange>
-            </li>
-        </value>
-    </Operation>
-
 </Patch>

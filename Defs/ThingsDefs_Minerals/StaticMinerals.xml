@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-  
-  
   <ThingDef Name="Obsidian" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
     <defName>Obsidian</defName>
     <label>Obsidian</label>
-    <description>A volcanic glass formed when lava cools quickly at the surface. Valued by the tribal inhabitants of this rimworld for making knifes, handaxes, and arrowheads. Razor-shape edges make this very difficult to climb over.</description>
+    <description></description>
     <graphicData>
       <texPath>Things/Mineral/Obsidian</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -106,7 +104,6 @@
     <!-- How easy it is to mine -->
     <mineSpeedFactor>0.3</mineSpeedFactor>
   </ThingDef>
-
 
   <ThingDef Name="FlintNodule" ParentName="StaticMineralBase" Class="Minerals.ThingDef_StaticMineral">
     <defName>FlintNodule</defName>
@@ -210,6 +207,4 @@
     <!-- How easy it is to mine -->
     <mineSpeedFactor>0.5</mineSpeedFactor>
   </ThingDef>
-
-
 </Defs>

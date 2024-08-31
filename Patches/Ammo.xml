@@ -10,8 +10,25 @@
 	  </value>
 	</Operation>
 
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/recipeUsers</xpath>
+			<order>Prepend</order>
+			<value>
+				<li>ZF_NeolithicCraftingSpot</li>
+			</value>
+		</match>
+	</Operation>
+
 
 	<!--
+
+
+
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/products/Ammo_Arrow_Steel</xpath>
 		<value>
