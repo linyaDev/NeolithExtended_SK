@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- PROBABLY SHOULD NOT BE OVERWRITING THIS.. better solution needed. 
+  <!-- PROBABLY SHOULD NOT BE OVERWRITING THIS.. better solution needed.
 	  <CombatExtended.AmmoSetDef>
 		    <defName>AmmoSet_Arrow</defName>
 		    <label>arrows</label>
@@ -18,5 +18,8 @@
   <MakeAmmo_Arrow_SharpStone.description>Сделать 30 острых каменных стрел.</MakeAmmo_Arrow_SharpStone.description>
   <MakeAmmo_Arrow_SharpStone.jobString>Делает острые каменные стрелы.</MakeAmmo_Arrow_SharpStone.jobString>
 
+  <MakeAmmo_Arrow_Steel.description>Сделать металические стрелы x30.</MakeAmmo_Arrow_Steel.description>
+  <MakeAmmo_Arrow_Steel.description>Сделать 30 стрел с металическим наконечником.</MakeAmmo_Arrow_Steel.description>
+  <MakeAmmo_Arrow_Steel.jobString>Делает стрелы с металическим наконечником.</MakeAmmo_Arrow_Steel.jobString>
 
 </LanguageData>

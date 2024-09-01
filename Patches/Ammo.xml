@@ -24,6 +24,32 @@
 	</Operation>
 
 
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>CETeam.CombatExtended</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/description</xpath>
+			<value>
+				<description>Craft 30 steel arrows</description>
+			</value>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>CETeam.CombatExtended</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/products/Ammo_Arrow_Steel</xpath>
+			<value>
+				<Ammo_Arrow_Stone>30</Ammo_Arrow_Stone>
+			</value>
+		</match>
+	</Operation>
+
+
 	<!--
 
 

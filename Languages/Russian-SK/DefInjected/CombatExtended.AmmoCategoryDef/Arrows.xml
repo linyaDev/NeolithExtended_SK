@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- PROBABLY SHOULD NOT BE OVERWRITING THIS.. better solution needed. 
+  <!-- PROBABLY SHOULD NOT BE OVERWRITING THIS.. better solution needed.
 	  <CombatExtended.AmmoSetDef>
 		    <defName>AmmoSet_Arrow</defName>
 		    <label>arrows</label>
@@ -17,8 +17,8 @@
   <SharpStoneArrow.label>Острая каменная стрела</SharpStoneArrow.label>
   <SharpStoneArrow.description>Заостренный каменный наконечник, прикрепленный к основанию. Разрезает ткань, словно нож масло, но против брони не так эффективна.</SharpStoneArrow.description>
   <AdamantArrow.label>Адамантитовая стрела</AdamantArrow.label>
-  <AdamantArrow.description>Arrows with heads of adamant, a very rare and hard stone. These arrows are difficult to craft, but can peirce armor much better than steel arrows.</AdamantArrow.description>
-  
+  <AdamantArrow.description>Адамантитовый наконечник. Способен пробивать броню.</AdamantArrow.description>
+
 
 
 </LanguageData>
