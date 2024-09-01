@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
-  
+
+
   <RecipeDef>
     <defName>MakeCutGems_Hand</defName>
     <label>Cut gems by hand</label>
@@ -45,10 +45,10 @@
     <workSkillLearnFactor>0.8</workSkillLearnFactor>
     <researchPrerequisite>ZF_HardStoneCuttingI</researchPrerequisite>
   </RecipeDef>
-  
-  
+
+
   <RecipeDef>
-    <defName>MakeCutGems_Electric</defName>
+    <defName>ZF_MakeCutGems_Electric</defName>
     <label>Cut gems with power tools</label>
     <description>Create cut gems from rough gems using power tools. Quite slow and difficult.</description>
     <jobString>Cutting gems.</jobString>
@@ -89,8 +89,8 @@
     <workSkillLearnFactor>0.8</workSkillLearnFactor>
     <researchPrerequisite>ZF_HardStoneCuttingI</researchPrerequisite>
   </RecipeDef>
-  
-  
+
+
   <RecipeDef>
     <defName>MakeCutUltrahardGems_Electric</defName>
     <label>Cut ultrahard gems with power tools</label>
@@ -133,8 +133,8 @@
     <workSkillLearnFactor>0.8</workSkillLearnFactor>
     <researchPrerequisite>ZF_HardStoneCuttingII</researchPrerequisite>
   </RecipeDef>
-  
-  
+
+
   <RecipeDef>
     <defName>MakeRoughGem</defName>
     <label>Make Rough Gems</label>
@@ -192,8 +192,8 @@
     <workSkillLearnFactor>0.8</workSkillLearnFactor>
     <researchPrerequisite>ZF_HardStoneCuttingIII</researchPrerequisite>
   </RecipeDef>
-  
-  
+
+
   <RecipeDef>
     <defName>MakeRoughUltrahardGem</defName>
     <label>Make Rough Ultrahard Gem</label>
@@ -236,6 +236,6 @@
     <workSkillLearnFactor>0.8</workSkillLearnFactor>
     <researchPrerequisite>ZF_HardStoneCuttingIII</researchPrerequisite>
   </RecipeDef>
-  
-  
+
+
 </Defs>

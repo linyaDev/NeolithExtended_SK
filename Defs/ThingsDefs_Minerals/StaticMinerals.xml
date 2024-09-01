@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <ThingDef Name="Obsidian" ParentName="BoulderRockBase" Class="Minerals.ThingDef_StaticMineral">
-    <defName>Obsidian</defName>
+    <defName>ZF_Obsidian</defName>
     <label>Obsidian</label>
-    <description></description>
+    <description>A volcanic glass formed when lava cools quickly at the surface. Valued by the tribal inhabitants of this rimworld for making knifes, handaxes, and arrowheads. Razor-shape edges make this very difficult to climb over.</description>
     <graphicData>
       <texPath>Things/Mineral/Obsidian</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -106,7 +106,7 @@
   </ThingDef>
 
   <ThingDef Name="FlintNodule" ParentName="StaticMineralBase" Class="Minerals.ThingDef_StaticMineral">
-    <defName>FlintNodule</defName>
+    <defName>ZF_FlintNodule</defName>
     <label>Flint Nodule</label>
     <description>Formations of microcrystalline silicon dioxide found in sedimentary rocks. Valued by the tribal inhabitants of this rimworld for making knifes, handaxes, and arrowheads.</description>
     <graphicData>
