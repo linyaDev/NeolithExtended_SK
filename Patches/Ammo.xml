@@ -44,7 +44,33 @@
 		<match Class="PatchOperationReplace">
 			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/products/Ammo_Arrow_Steel</xpath>
 			<value>
-				<Ammo_Arrow_Stone>30</Ammo_Arrow_Stone>
+				<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
+			</value>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>CETeam.CombatExtended</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/description</xpath>
+			<value>
+				<description>Craft 30 venom arrows</description>
+			</value>
+		</match>
+	</Operation>
+
+
+	<Operation Class="PatchOperation.FindModByID">
+		<mods>
+			<li>CETeam.CombatExtended</li>
+		</mods>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/products/Ammo_Arrow_Venom</xpath>
+			<value>
+				<Ammo_Arrow_Venom>30</Ammo_Arrow_Venom>
 			</value>
 		</match>
 	</Operation>

@@ -10,8 +10,8 @@
     </weaponTags>
     <tradeability>Sellable</tradeability>
   </ThingDef>
-  
-  
+
+
   <ThingDef ParentName="WeaponMedievalBase">
     <defName>MeleeWeapon_RoyalKnife</defName>
     <label>Royal Knife</label>
@@ -111,7 +111,7 @@
       <li>SurvivalToolsIndustrial</li>
     </thingCategories>
   </ThingDef>
-  
+
   <WeaponExtensionDef>
     <defName>WeaponExtensionDef_MeleeWeapon_RoyalKnife</defName>
     <label>WeaponExtensionDef_MeleeWeapon_RoyalKnife</label>
@@ -138,7 +138,7 @@
       <z>0</z>
     </secondHandPosition>
   </WeaponExtensionDef>
-  
+
   <ThingDef ParentName="WeaponMedievalBase">
     <defName>MeleeWeapon_RoyalLongSword</defName>
     <label>Royal Longsword</label>
@@ -233,7 +233,7 @@
       <li>SharpMelee</li>
     </thingCategories>
   </ThingDef>
-  
+
   <WeaponExtensionDef>
     <defName>WeaponExtensionDef_MeleeWeapon_RoyalLongSword</defName>
     <label>WeaponExtensionDef_MeleeWeapon_RoyalLongSword</label>
@@ -260,7 +260,7 @@
       <z>0</z>
     </secondHandPosition>
   </WeaponExtensionDef>
-  
+
   <ThingDef ParentName="WeaponMedievalBase">
     <defName>MeleeWeapon_RoyalBattleAxe</defName>
     <label>Royal Battle Axe</label>
@@ -343,7 +343,7 @@
       <li>HeavyMelee</li>
     </thingCategories>
   </ThingDef>
-  
+
   <WeaponExtensionDef>
     <defName>WeaponExtensionDef_MeleeWeapon_RoyalBattleAxe</defName>
     <label>WeaponExtensionDef_MeleeWeapon_RoyalBattleAxe</label>
@@ -370,10 +370,10 @@
       <z>-0.3</z>
     </secondHandPosition>
   </WeaponExtensionDef>
-  
-  
 
- <!-- Neolithic Spear --> 
+
+
+ <!-- Neolithic Spear -->
 
   <ThingDef ParentName="ZF_BaseNeolithicWeapon">
     <defName>ZF_MeleeWeapon_NeolithicSpear</defName>
@@ -424,7 +424,7 @@
       <li>SharpMelee</li>
     </thingCategories>
   </ThingDef>
-  
+
   <WeaponExtensionDef>
     <defName>WeaponExtensionDef_ZF_MeleeWeapon_NeolithicSpear</defName>
     <label>WeaponExtensionDef_ZF_MeleeWeapon_NeolithicSpear</label>
@@ -500,11 +500,11 @@
     </skillRequirements>
     <researchPrerequisite>ZF_NeolithicToolsI</researchPrerequisite>
   </RecipeDef>
- 
- 
- 
-  <!-- Neolithic Macuahuitl --> 
- 
+
+
+
+  <!-- Neolithic Macuahuitl -->
+
   <ThingDef ParentName="ZF_BaseNeolithicWeapon">
     <defName>MeleeWeapon_Macuahuitl</defName>
     <label>Macuahuitl</label>
@@ -552,7 +552,7 @@
       <li>SharpMelee</li>
     </thingCategories>
   </ThingDef>
-  
+
   <WeaponExtensionDef>
     <defName>WeaponExtensionDef_MeleeWeapon_Macuahuitl</defName>
     <label>WeaponExtensionDef_MeleeWeapon_Macuahuitl</label>
@@ -579,7 +579,7 @@
       <z>0</z>
     </secondHandPosition>
   </WeaponExtensionDef>
-  
+
   <RecipeDef ParentName="ZF_NeolithicWeaponRecipeBase">
     <defName>ZF_MakeMacuahuitl</defName>
     <label>make macuahuitl</label>
@@ -629,5 +629,5 @@
     <researchPrerequisite>ZF_NeolithicToolsIII</researchPrerequisite>
   </RecipeDef>
 
-  
+
 </Defs>

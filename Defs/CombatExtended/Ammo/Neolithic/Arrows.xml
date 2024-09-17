@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
+
   <CombatExtended.AmmoCategoryDef>
     <defName>SharpStoneArrow</defName>
     <label>sharp stone arrow</label>
     <description>Arrows with heads made of a very sharp stone. Very effective against unarmored foes but their brittle heads can shatter when hitting even the lightest armor.</description>
   </CombatExtended.AmmoCategoryDef>
-  
+
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoArrowBase">
     <defName>Ammo_Arrow_SharpStone</defName>
     <label>arrow (sharp stone)</label>
@@ -19,7 +19,7 @@
     </statBases>
     <ammoClass>SharpStoneArrow</ammoClass>
   </ThingDef>
-  
+
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseArrowProjectile">
     <defName>Projectile_Arrow_SharpStone</defName>
     <label>arrow (sharp stone)</label>
@@ -29,13 +29,13 @@
     </graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>12</damageAmountBase>
-			<armorPenetrationSharp>3.3</armorPenetrationSharp>
-			<armorPenetrationBlunt>3.8</armorPenetrationBlunt>
+			<armorPenetrationSharp>3.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>4.0</armorPenetrationBlunt>
       <preExplosionSpawnChance>0.333</preExplosionSpawnChance>
       <preExplosionSpawnThingDef>Ammo_Arrow_SharpStone</preExplosionSpawnThingDef>
 		</projectile>
   </ThingDef>
-  
+
   <RecipeDef ParentName="AmmoRecipeNeolithicBase">
     <defName>MakeAmmo_Arrow_SharpStone</defName>
     <label>make sharp stone arrows x30</label>
@@ -79,13 +79,13 @@
     </recipeUsers>
     <researchPrerequisite>ZF_NeolithicToolsII</researchPrerequisite>
   </RecipeDef>
-  
+
   <CombatExtended.AmmoCategoryDef>
     <defName>AdamantArrow</defName>
     <label>adamant arrow</label>
     <description>Arrows with heads of adamant, a very rare and hard stone. These arrows are difficult to craft, but can peirce armor much better than steel arrows.</description>
   </CombatExtended.AmmoCategoryDef>
-  
+
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoArrowBase">
     <defName>Ammo_Arrow_Adamant</defName>
     <label>arrow (adamantine)</label>
@@ -98,7 +98,7 @@
     </statBases>
     <ammoClass>AdamantArrow</ammoClass>
   </ThingDef>
-  
+
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseArrowProjectile">
     <defName>Projectile_Arrow_Adamant</defName>
     <label>arrow (adamantine)</label>
@@ -107,14 +107,14 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<damageAmountBase>10</damageAmountBase>
-			<armorPenetrationSharp>7</armorPenetrationSharp>
-			<armorPenetrationBlunt>6</armorPenetrationBlunt>
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationSharp>10</armorPenetrationSharp>
+			<armorPenetrationBlunt>10</armorPenetrationBlunt>
       <preExplosionSpawnChance>0.8</preExplosionSpawnChance>
       <preExplosionSpawnThingDef>Ammo_Arrow_Adamant</preExplosionSpawnThingDef>
 		</projectile>
   </ThingDef>
-  
+
   <RecipeDef ParentName="AmmoRecipeNeolithicBase">
     <defName>MakeAmmo_Arrow_Adamant</defName>
     <label>make adamantine arrows x30</label>
@@ -158,5 +158,5 @@
     </recipeUsers>
     <researchPrerequisite>ZF_NeolithicToolsIII</researchPrerequisite>
   </RecipeDef>
-  
+
 </Defs>

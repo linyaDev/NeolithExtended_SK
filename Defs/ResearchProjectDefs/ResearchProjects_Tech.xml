@@ -32,7 +32,7 @@
     <defName>ZF_Fortification</defName>
     <label>Neolith Fortithication</label>
     <description>Descr</description>
-    <baseCost>250</baseCost>
+    <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
     <tab>Craft_SK</tab>
     <researchViewX>2.00</researchViewX>
@@ -67,17 +67,6 @@
     <tab>Craft_SK</tab>
     <researchViewX>1.00</researchViewX>
     <researchViewY>28.00</researchViewY>
-  </ResearchProjectDef>
-
-  <ResearchProjectDef ParentName="ZF_TribalResearchBase">
-    <defName>ZF_NeolithicMetalWeaponI</defName>
-    <label>Neolithic metal weapon</label>
-    <description>Make tools and simple weapons out of sharp stone like flint and obsidian.</description>
-    <baseCost>75</baseCost>
-    <techLevel>Neolithic</techLevel>
-    <tab>Craft_SK</tab>
-    <researchViewX>1.00</researchViewX>
-    <researchViewY>27.00</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="ZF_NoResearchBase">

@@ -162,6 +162,17 @@
                         <researchPrerequisite>Apparel_A2</researchPrerequisite>
                     </value>
                 </li>
+
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ThingDef[defName="MedievalTimes_Cloak"]/recipeMaker/researchPrerequisite
+                    </xpath>
+                    <value>
+                        <researchPrerequisite>Apparel_B1</researchPrerequisite>
+                    </value>
+                </li>
+
             </operations>
         </match>
     </Operation>
