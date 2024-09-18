@@ -45,7 +45,7 @@
 
   <ResearchProjectDef ParentName="ZF_NoResearchBase">
     <defName>ZF_Apparel_A3</defName>
-    <label>Advanced neolith sewing II</label>
+    <label>Advanced neolith sewing I</label>
     <description>Learn to make expert neolith clothing</description>
     <baseCost>300</baseCost>
     <techLevel>Neolithic</techLevel>
@@ -58,7 +58,7 @@
 
   </ResearchProjectDef>
 
-  <ResearchProjectDef ParentName="ZF_TribalResearchBase">
+  <ResearchProjectDef ParentName="ZF_NoResearchBase">
     <defName>ZF_NeolithicToolsI</defName>
     <label>Neolithic crafting I</label>
     <description>Make tools and simple weapons out of sharp stone like flint and obsidian.</description>
@@ -100,7 +100,7 @@
 
   <ResearchProjectDef ParentName="ZF_NoResearchBase">
     <defName>ZF_Craft_1</defName>
-    <label>Tools craft</label>
+    <label>Crafting tools</label>
     <description>Make new tools.</description>
     <baseCost>200</baseCost>
     <techLevel>Neolithic</techLevel>
