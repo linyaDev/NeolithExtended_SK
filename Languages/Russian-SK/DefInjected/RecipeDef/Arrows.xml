@@ -14,12 +14,15 @@
 		    </ammoTypes>
 	  </CombatExtended.AmmoSetDef> -->
 
-  <MakeAmmo_Arrow_SharpStone.label>Сделать острые каменные стрелы x30</MakeAmmo_Arrow_SharpStone.label>
-  <MakeAmmo_Arrow_SharpStone.description>Сделать 30 острых каменных стрел.</MakeAmmo_Arrow_SharpStone.description>
+  <MakeAmmo_Arrow_SharpStone.label>Сделать острые каменные стрелы x50</MakeAmmo_Arrow_SharpStone.label>
+  <MakeAmmo_Arrow_SharpStone.description>Сделать 50 острых каменных стрел.</MakeAmmo_Arrow_SharpStone.description>
   <MakeAmmo_Arrow_SharpStone.jobString>Делает острые каменные стрелы.</MakeAmmo_Arrow_SharpStone.jobString>
 
-  <MakeAmmo_Arrow_Steel.description>Сделать металические стрелы x30.</MakeAmmo_Arrow_Steel.description>
-  <MakeAmmo_Arrow_Steel.description>Сделать 30 стрел с металическим наконечником.</MakeAmmo_Arrow_Steel.description>
+  <MakeAmmo_Arrow_Steel.description>Сделать металические стрелы x50.</MakeAmmo_Arrow_Steel.description>
+  <MakeAmmo_Arrow_Steel.description>Сделать 50 стрел с металическим наконечником.</MakeAmmo_Arrow_Steel.description>
   <MakeAmmo_Arrow_Steel.jobString>Делает стрелы с металическим наконечником.</MakeAmmo_Arrow_Steel.jobString>
+
+  <MakeAmmo_Bolt_Adamant.label>Сделать адамантиновые болты x50</MakeAmmo_Bolt_Adamant.label>
+
 
 </LanguageData>

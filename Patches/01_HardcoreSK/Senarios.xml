@@ -4,7 +4,7 @@
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ScenarioDef[defName="LostTribe"]/scenario/parts/li[def="StartingThing_Defined"]</xpath>
     </Operation>
-    
+
 
    <!-- Lost Tribe -->
    <Operation Class="PatchOperationAdd">
@@ -39,12 +39,17 @@
                     <count>3</count>
             </li>
 
-            
+
             <!-- New starting things added by this mod -->
             <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
                     <thingDef>Ammo_Arrow_SharpStone</thingDef>
                     <count>200</count>
+            </li>
+            <li Class="ScenPart_StartingThing_Defined">
+                <def>StartingThing_Defined</def>
+                <thingDef>Ammo_Arrow_Adamant</thingDef>
+                <count>30</count>
             </li>
             <li Class="ScenPart_StartingThing_Defined">
                 <def>StartingThing_Defined</def>
@@ -85,6 +90,6 @@
 
         </value>
     </Operation>
-    
+
 
 </Patch>

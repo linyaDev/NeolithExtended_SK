@@ -108,9 +108,9 @@
     </graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>12</damageAmountBase>
-			<armorPenetrationSharp>8</armorPenetrationSharp>
-			<armorPenetrationBlunt>8</armorPenetrationBlunt>
-      <preExplosionSpawnChance>0.8</preExplosionSpawnChance>
+			<armorPenetrationSharp>6</armorPenetrationSharp>
+			<armorPenetrationBlunt>6</armorPenetrationBlunt>
+      <preExplosionSpawnChance>0.4</preExplosionSpawnChance>
       <preExplosionSpawnThingDef>Ammo_Arrow_Adamant</preExplosionSpawnThingDef>
 		</projectile>
   </ThingDef>

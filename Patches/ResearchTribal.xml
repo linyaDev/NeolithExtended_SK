@@ -45,6 +45,17 @@
                     </value>
                 </li>
 
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+                        Defs/ResearchProjectDef[defName="Ballista_B1"]/baseCost
+                    </xpath>
+                    <value>
+                        <baseCost>400</baseCost>
+                    </value>
+                </li>
+
+
             </operations>
         </match>
     </Operation>

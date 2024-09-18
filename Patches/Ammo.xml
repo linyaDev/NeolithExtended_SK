@@ -17,6 +17,14 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName = "AmmoSet_Bolt"]/ammoTypes</xpath>
+        <value>
+            <Ammo_Bolt_Adamant>Projectile_AdamantBolt</Ammo_Bolt_Adamant>
+        </value>
+    </Operation>
+
+
     <!--
    <Operation Class="PatchOperationAdd">
        <xpath>Defs/CombatExtended.AmmoSetDef[defName = "AmmoSet_Bolt"]/ammoTypes</xpath>

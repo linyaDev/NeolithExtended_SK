@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+  <!-- lights -->
+
+  <CombatExtended.AmmoCategoryDef>
+    <defName>AdamantLightBolt</defName>
+    <label>adamant light arrow (bolt)</label>
+    <description>The arrow head is made from ,adamant to enhance armor penetration.</description>
+    <advanced>true</advanced>
+  </CombatExtended.AmmoCategoryDef>
+
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoLightBoltBase">
     <defName>Ammo_Bolt_Light_Adamant</defName>
     <label>light adamant bolt</label>
     <description>A small adamant bolt.</description>
     <graphicData>
-      <texPath>Ammo/AdamantBolt</texPath>
+      <texPath>Ammo/AdamantLightBolt</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
       <MarketValue>0.14</MarketValue>
     </statBases>
-    <ammoClass>MetallicArrow</ammoClass>
+    <ammoClass>AdamantLightBolt</ammoClass>
   </ThingDef>
-
-
-
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseLightBoltProjectile">
     <defName>Projectile_LightAdamantBolt</defName>
@@ -24,9 +30,9 @@
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageAmountBase>16</damageAmountBase>
       <!-- <armorPenetrationBase>0.37</armorPenetrationBase> -->
-      <armorPenetrationBlunt>6.2</armorPenetrationBlunt>
-      <armorPenetrationSharp>4.0</armorPenetrationSharp>
-      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>	<!-- 25 arrows per resource -->
+      <armorPenetrationBlunt>6.5</armorPenetrationBlunt>
+      <armorPenetrationSharp>6.5</armorPenetrationSharp>
+      <preExplosionSpawnChance>0.4</preExplosionSpawnChance>	<!-- 25 arrows per resource -->
       <preExplosionSpawnThingDef>Ammo_Bolt_Light_Adamant</preExplosionSpawnThingDef>
     </projectile>
   </ThingDef>
@@ -62,10 +68,87 @@
       <thingDefs>
         <li>WoodLog</li>
       </thingDefs>
+      <thingDefs>
+        <li>ChunkAdamant</li>
+      </thingDefs>
     </fixedIngredientFilter>
     <products>
       <Ammo_Bolt_Light_Adamant>60</Ammo_Bolt_Light_Adamant>
     </products>
+  </RecipeDef>
+
+  <!-- тяжелые -->
+
+  <CombatExtended.AmmoCategoryDef>
+    <defName>AdamantBolt</defName>
+    <label>adamant arrow (bolt)</label>
+    <description>The arrow head is made from ,adamant to enhance armor penetration.</description>
+    <advanced>true</advanced>
+  </CombatExtended.AmmoCategoryDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoBoltBase">
+    <defName>Ammo_Bolt_Adamant</defName>
+    <label>adamant bolt</label>
+    <description>Simple arrow with adamant bolt.</description>
+    <graphicData>
+      <texPath>Ammo/AdamantBolt</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.15</MarketValue>
+    </statBases>
+    <ammoClass>AdamantBolt</ammoClass>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseBoltProjectile">
+    <defName>Projectile_AdamantBolt</defName>
+    <label>adamant bolt</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBlunt>10.0</armorPenetrationBlunt>
+      <armorPenetrationSharp>10.0</armorPenetrationSharp>
+      <preExplosionSpawnChance>0.4</preExplosionSpawnChance>	<!-- 25 arrows per resource -->
+      <preExplosionSpawnThingDef>Ammo_Bolt_Adamant</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeNeolithicBase">
+    <defName>MakeAmmo_Bolt_Adamant</defName>
+    <label>make adamant bolts x50</label>
+    <description>Craft 50 adamant bolts.</description>
+    <jobString>Making bolts.</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Wooden</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>Metallic</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Wooden</li>
+        <li>Metallic</li>
+      </categories>
+      <thingDefs>
+        <li>ChunkAdamant</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_Bolt_Adamant>50</Ammo_Bolt_Adamant>
+    </products>
+    <researchPrerequisite>Bow_B2</researchPrerequisite>
   </RecipeDef>
 
 

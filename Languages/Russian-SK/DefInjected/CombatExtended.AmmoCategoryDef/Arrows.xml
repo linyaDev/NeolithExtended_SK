@@ -19,6 +19,7 @@
   <AdamantArrow.label>Адамантитовая стрела</AdamantArrow.label>
   <AdamantArrow.description>Адамантитовый наконечник. Способен пробивать броню.</AdamantArrow.description>
 
-
+  <Ammo_Bolt_Adamant.label>Адамантитовый болт</Ammo_Bolt_Adamant.label>
+  <Projectile_AdamantBolt.label>Адамантитовый болт</Projectile_AdamantBolt.label>
 
 </LanguageData>
