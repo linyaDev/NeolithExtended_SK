@@ -38,8 +38,8 @@
 
   <RecipeDef ParentName="AmmoRecipeNeolithicBase">
     <defName>MakeAmmo_Arrow_SharpStone</defName>
-    <label>make sharp stone arrows x30</label>
-    <description>Craft 30 sharp stone arrows.</description>
+    <label>make sharp stone arrows x50</label>
+    <description>Craft 50 sharp stone arrows.</description>
     <jobString>Making sharp stone arrows.</jobString>
     <workAmount>700</workAmount>
     <ingredients>
@@ -69,7 +69,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_Arrow_SharpStone>30</Ammo_Arrow_SharpStone>
+      <Ammo_Arrow_SharpStone>50</Ammo_Arrow_SharpStone>
     </products>
     <recipeUsers>
       <li>ElectricSmithy</li>
@@ -108,8 +108,8 @@
     </graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>12</damageAmountBase>
-			<armorPenetrationSharp>10</armorPenetrationSharp>
-			<armorPenetrationBlunt>10</armorPenetrationBlunt>
+			<armorPenetrationSharp>8</armorPenetrationSharp>
+			<armorPenetrationBlunt>8</armorPenetrationBlunt>
       <preExplosionSpawnChance>0.8</preExplosionSpawnChance>
       <preExplosionSpawnThingDef>Ammo_Arrow_Adamant</preExplosionSpawnThingDef>
 		</projectile>
@@ -117,8 +117,8 @@
 
   <RecipeDef ParentName="AmmoRecipeNeolithicBase">
     <defName>MakeAmmo_Arrow_Adamant</defName>
-    <label>make adamantine arrows x30</label>
-    <description>Craft 30 adamantine arrows.</description>
+    <label>make adamantine arrows x50</label>
+    <description>Craft 50 adamantine arrows.</description>
     <jobString>Making adamantine arrows.</jobString>
     <workAmount>2000</workAmount>
     <ingredients>
@@ -148,7 +148,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_Arrow_Adamant>30</Ammo_Arrow_Adamant>
+      <Ammo_Arrow_Adamant>50</Ammo_Arrow_Adamant>
     </products>
     <recipeUsers>
       <li>ElectricSmithy</li>

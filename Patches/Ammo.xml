@@ -2,121 +2,102 @@
 
 <Patch>
 
-	<Operation Class="PatchOperationAdd">
-	  <xpath>Defs/CombatExtended.AmmoSetDef[defName = "AmmoSet_Arrow"]/ammoTypes</xpath>
-	  <value>
-		  <Ammo_Arrow_SharpStone>Projectile_Arrow_SharpStone</Ammo_Arrow_SharpStone>
-		  <Ammo_Arrow_Adamant>Projectile_Arrow_Adamant</Ammo_Arrow_Adamant>
-	  </value>
-	</Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName = "AmmoSet_Arrow"]/ammoTypes</xpath>
+        <value>
+            <Ammo_Arrow_SharpStone>Projectile_Arrow_SharpStone</Ammo_Arrow_SharpStone>
+            <Ammo_Arrow_Adamant>Projectile_Arrow_Adamant</Ammo_Arrow_Adamant>
+        </value>
+    </Operation>
 
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Combat Extended</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/recipeUsers</xpath>
-			<order>Prepend</order>
-			<value>
-				<li>ZF_NeolithicCraftingSpot</li>
-			</value>
-		</match>
-	</Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName = "AmmoSet_LightBolt"]/ammoTypes</xpath>
+        <value>
+            <Ammo_Bolt_Light_Adamant>Projectile_LightAdamantBolt</Ammo_Bolt_Light_Adamant>
+        </value>
+    </Operation>
 
+    <!--
+   <Operation Class="PatchOperationAdd">
+       <xpath>Defs/CombatExtended.AmmoSetDef[defName = "AmmoSet_Bolt"]/ammoTypes</xpath>
+       <value>
+           <Ammo_Arrow_Adamant>Projectile_Arrow_Adamant2</Ammo_Arrow_Adamant>
+       </value>
+   </Operation>
 
-	<Operation Class="PatchOperation.FindModByID">
-		<mods>
-			<li>CETeam.CombatExtended</li>
-		</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/description</xpath>
-			<value>
-				<description>Craft 30 steel arrows</description>
-			</value>
-		</match>
-	</Operation>
+   -->
 
 
-	<Operation Class="PatchOperation.FindModByID">
-		<mods>
-			<li>CETeam.CombatExtended</li>
-		</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/products/Ammo_Arrow_Steel</xpath>
-			<value>
-				<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
-			</value>
-		</match>
-	</Operation>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Combat Extended</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/recipeUsers</xpath>
+            <order>Prepend</order>
+            <value>
+                <li>ZF_NeolithicCraftingSpot</li>
+            </value>
+        </match>
+    </Operation>
+
+    <!--
+
+    <Operation Class="PatchOperation.FindModByID">
+        <mods>
+            <li>CETeam.CombatExtended</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/description</xpath>
+            <value>
+                <description>Craft 30 steel arrows</description>
+            </value>
+        </match>
+    </Operation>
 
 
-	<Operation Class="PatchOperation.FindModByID">
-		<mods>
-			<li>CETeam.CombatExtended</li>
-		</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/description</xpath>
-			<value>
-				<description>Craft 30 venom arrows</description>
-			</value>
-		</match>
-	</Operation>
+    <Operation Class="PatchOperation.FindModByID">
+        <mods>
+            <li>CETeam.CombatExtended</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/products/Ammo_Arrow_Steel</xpath>
+            <value>
+                <Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
+            </value>
+        </match>
+    </Operation>
 
 
-	<Operation Class="PatchOperation.FindModByID">
-		<mods>
-			<li>CETeam.CombatExtended</li>
-		</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/products/Ammo_Arrow_Venom</xpath>
-			<value>
-				<Ammo_Arrow_Venom>30</Ammo_Arrow_Venom>
-			</value>
-		</match>
-	</Operation>
+    <Operation Class="PatchOperation.FindModByID">
+        <mods>
+            <li>CETeam.CombatExtended</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/description</xpath>
+            <value>
+                <description>Craft 30 venom arrows</description>
+            </value>
+        </match>
+    </Operation>
 
 
-	<!--
+    <Operation Class="PatchOperation.FindModByID">
+        <mods>
+            <li>CETeam.CombatExtended</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/products/Ammo_Arrow_Venom</xpath>
+            <value>
+                <Ammo_Arrow_Venom>30</Ammo_Arrow_Venom>
+            </value>
+        </match>
+    </Operation>
 
+    -->
 
+    <!--
 
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Steel"]/products/Ammo_Arrow_Steel</xpath>
-		<value>
-			<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/products/Ammo_Arrow_Steel</xpath>
-		<value>
-			<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Venom"]/products/Ammo_Arrow_Steel</xpath>
-		<value>
-			<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Explosive"]/products/Ammo_Arrow_Steel</xpath>
-		<value>
-			<Ammo_Arrow_Steel>30</Ammo_Arrow_Steel>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Stone"]/recipeUsers</xpath>
-		<value>
-			<recipeUsers>
-				<li>ZF_NeolithicCraftingSpot</li>
-			</recipeUsers>
-		</value>
-	</Operation>
-	-->
+    -->
 
 </Patch>

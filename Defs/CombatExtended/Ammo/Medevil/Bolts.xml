@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoLightBoltBase">
+    <defName>Ammo_Bolt_Light_Adamant</defName>
+    <label>light adamant bolt</label>
+    <description>A small adamant bolt.</description>
+    <graphicData>
+      <texPath>Ammo/AdamantBolt</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.14</MarketValue>
+    </statBases>
+    <ammoClass>MetallicArrow</ammoClass>
+  </ThingDef>
+
+
+
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseLightBoltProjectile">
+    <defName>Projectile_LightAdamantBolt</defName>
+    <label>light adamant bolt</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>16</damageAmountBase>
+      <!-- <armorPenetrationBase>0.37</armorPenetrationBase> -->
+      <armorPenetrationBlunt>6.2</armorPenetrationBlunt>
+      <armorPenetrationSharp>4.0</armorPenetrationSharp>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>	<!-- 25 arrows per resource -->
+      <preExplosionSpawnThingDef>Ammo_Bolt_Light_Adamant</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+
+  <RecipeDef ParentName="AmmoRecipeNeolithicBase">
+    <defName>MakeAmmo_Bolt_Light_Adamant</defName>
+    <label>make adamant light bolts x60</label>
+    <description>Craft 60 light adamant bolts.</description>
+    <jobString>Making light adamant bolts.</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>Metallic</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_Bolt_Light_Adamant>60</Ammo_Bolt_Light_Adamant>
+    </products>
+  </RecipeDef>
+
+
+</Defs>
