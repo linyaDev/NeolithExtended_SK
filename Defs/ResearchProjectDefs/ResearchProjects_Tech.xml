@@ -67,6 +67,9 @@
     <tab>Craft_SK</tab>
     <researchViewX>1.00</researchViewX>
     <researchViewY>28.00</researchViewY>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="ZF_NoResearchBase">
